@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.coursesDiv{
+    width: 650px;
+    margin: 20px auto;
+}
+.course{
+    width: 100%;
+    border: 1px solid red;
+    margin-top: 20px;
+    padding: 20px;
+}
+.title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.duration{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.durationMonth{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.durationHour{
+    width: 340px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.modules{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
